@@ -82,7 +82,7 @@ module IGMarkets
 
       return if options.keys == %i[resolution from to] || options.keys == %i[resolution number]
 
-      raise ArgumentError, 'options must specify either :number or :from and :to'
+      # raise ArgumentError, 'options must specify either :number or :from and :to'
     end
 
     # Returns the API response to a request for historical prices.
